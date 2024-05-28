@@ -2,6 +2,10 @@ import java.util.ArrayList;
 
 public class PrincipalApp {
 	
+	/**
+	 * creacion del metodo que contiene la funcionalidad principal
+	 * @param args
+	 */
 	public static void main (String [] args) {
 		ArrayList<Integer> edades = new ArrayList<Integer>();
 		int edad;

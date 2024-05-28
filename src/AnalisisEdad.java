@@ -1,16 +1,26 @@
 import java.util.ArrayList;
 
-
+/**
+ * creacion de la case Analisis Edad
+ */
 public class AnalisisEdad {
-	
-	private ArrayList<Integer> edades = new ArrayList<Integer>();
 
+	private ArrayList<Integer> edades = new ArrayList<Integer>();
+	
+	/**
+	 * creacion del constructor del objeto
+	 * @param edades
+	 */
 	public AnalisisEdad(ArrayList<Integer> edades) {
 		this.edades = edades;
 	}
 	
 	
-	
+	/**
+	 * creacion de la clase que devuelve la frase
+	 * @param edades
+	 * @return
+	 */
 	public String devolverFrase(ArrayList<Integer> edades) {
 		String frase = null;
 		int jubilados = 0, mayoresEdad = 0, menoresEdad = 0;
