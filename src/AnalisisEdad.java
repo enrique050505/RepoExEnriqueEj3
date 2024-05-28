@@ -3,6 +3,9 @@ import java.util.ArrayList;
 /**
  * creacion de la case Analisis Edad
  */
+/**
+ * creacion de la clase que contiene la funcionalidad general
+ */
 public class AnalisisEdad {
 
 	private ArrayList<Integer> edades = new ArrayList<Integer>();
