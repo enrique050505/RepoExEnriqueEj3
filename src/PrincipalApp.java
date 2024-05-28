@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+/**
+ * creacion de la clase Principal App
+ */
 public class PrincipalApp {
 	
 	/**
